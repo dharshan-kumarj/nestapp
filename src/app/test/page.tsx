@@ -1,4 +1,5 @@
 import { WelcomeCard, FeatureList } from './components/components_1';
+import { ApiTester } from './components/ApiTester';
 
 export default function TestPage() {
   return (
@@ -13,8 +14,13 @@ export default function TestPage() {
             by Dharshan
           </p>
           <p className="text-gray-500 dark:text-gray-400">
-            This is the test page at /test showcasing custom components
+            This is the test page at /test showcasing custom components and API testing
           </p>
+        </div>
+
+        {/* API Testing Section */}
+        <div className="mb-12">
+          <ApiTester />
         </div>
 
         {/* Custom Component Usage */}
