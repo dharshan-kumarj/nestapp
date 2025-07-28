@@ -4,6 +4,14 @@ export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+        <div className="text-center sm:text-left">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            Welcome to Next.js
+          </h1>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+            by Dharshan
+          </p>
+        </div>
         <Image
           className="dark:invert"
           src="/next.svg"
